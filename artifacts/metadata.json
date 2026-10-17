@@ -1,0 +1,31 @@
+{
+  "crop_data_source": "generated sample data",
+  "yield_data_source": "generated sample data",
+  "best_crop_model": "Gaussian Naive Bayes",
+  "best_yield_model": "Random Forest Regressor",
+  "crop_features": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ],
+  "yield_features": [
+    "Year",
+    "average_rain_fall_mm_per_year",
+    "pesticides_tonnes",
+    "avg_temp"
+  ],
+  "artifacts": {
+    "crop_model": "C:\\Users\\ajuel\\OneDrive\\Desktop\\final_project\\basepaper_inplementation\\artifacts\\crop_classifier.joblib",
+    "yield_model": "C:\\Users\\ajuel\\OneDrive\\Desktop\\final_project\\basepaper_inplementation\\artifacts\\yield_regressor.joblib",
+    "crop_metrics": "C:\\Users\\ajuel\\OneDrive\\Desktop\\final_project\\basepaper_inplementation\\artifacts\\crop_metrics.csv",
+    "yield_metrics": "C:\\Users\\ajuel\\OneDrive\\Desktop\\final_project\\basepaper_inplementation\\artifacts\\yield_metrics.csv",
+    "crop_feature_importance": "C:\\Users\\ajuel\\OneDrive\\Desktop\\final_project\\basepaper_inplementation\\artifacts\\crop_feature_importance.csv",
+    "yield_feature_importance": "C:\\Users\\ajuel\\OneDrive\\Desktop\\final_project\\basepaper_inplementation\\artifacts\\yield_feature_importance.csv",
+    "completed_yield_data": "C:\\Users\\ajuel\\OneDrive\\Desktop\\final_project\\basepaper_inplementation\\artifacts\\completed_yield_data.csv",
+    "yield_2025_forecast": "C:\\Users\\ajuel\\OneDrive\\Desktop\\final_project\\basepaper_inplementation\\artifacts\\yield_2025_forecast.csv"
+  }
+}
