@@ -1,39 +1,16 @@
-<<<<<<< HEAD
 
 [project]
 name = "agri-crop-prediction"
 version = "0.1.0"
-description = "AI-based crop classification and yield prediction"
+description = "AgriSense crop recommendation and yield prediction website"
 requires-python = ">=3.12"
 dependencies = [
-    "pandas>=2.0",
-    "numpy>=1.24",
-    "scikit-learn>=1.3",
+    "Flask>=3.0",
     "joblib>=1.3",
-    "flask>=3.0",
-    "streamlit>=1.30",
-    "xgboost>=2.0",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
 ]
 
 [tool.vercel]
 entrypoint = "web_app:app"
-=======
-
-[project]
-name = "agri-crop-prediction"
-version = "0.1.0"
-description = "AI-based crop classification and yield prediction"
-requires-python = ">=3.12"
-dependencies = [
-    "pandas>=2.0",
-    "numpy>=1.24",
-    "scikit-learn>=1.3",
-    "joblib>=1.3",
-    "flask>=3.0",
-    "streamlit>=1.30",
-    "xgboost>=2.0",
-]
-
-[tool.vercel]
-entrypoint = "web_app:app"
->>>>>>> 4bf8cee (Reduce Vercel deployment dependencies)
